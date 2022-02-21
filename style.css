@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+
+}
+
+html,body{ 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    background-color: #00b19d;
+    height: 3rem;
+}
+
+.container_body{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+.container_main{
+    display: flex;
+    flex-flow: row;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+#index{
+    background-color: ffffff;
+    width: 4rem;
+    height: 100%;
+}
+main{
+    height: 100%;
+    background-color: grey;
+    flex-grow: 1;
+}
+
+
+#telediendaxd{
+    background-color: #ffffff;
+    height: 100%;
+    width: 30%;
+    flex-flow:column;
+    display: flex;
+
+}
+#teletiendaxd    h3{
+    margin: 0;
+}
+footer{
+    background-color: wheat;
+    position: fixed;
+    bottom: 0rem;
+    width: 100%;
+    
+}
+article{
+   
+
+    width: 10rem;
+    height: 14rem;
+    margin: 0.6rem;
+    background-color: white;
+    text-align: center;
+    
+ }
+
+ #products {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+#fac {
+    margin-top: 0;
+background-color: #809bb6;
+height: 10%;
+text-align: center;
+}
