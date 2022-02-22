@@ -17,20 +17,26 @@ nav{
     height: 5vh;
 }
 #search{
-    left: 55%;
+    left: 0%;
+    position: relative;
 }
 #lupa{ 
 
-    width: 4%;
-    height: 4%;
+    width:  4vw;
+    height: 3vh;
+    /* display: flex;
+    flex-flow:; */
     margin-top: 1%;
     margin-left: 1%;
     background-color:  #000000;
    
 }
 #busco{
-    height: 4%;
-    width: 50%;
+    height: 3vh;
+    width: 50vw;
+    /* display: flex;
+    flex-flow: column;
+    border: 2px solid red; */
 }
 #nuevo{
     height: 4%;
@@ -54,7 +60,7 @@ nav{
 }
 #index{
     background-color: #ffffff;
-    width: 3.5%;
+    width: 5%;
     height: 100%;
     /* border: 5px solid orange; */
 }
@@ -68,6 +74,7 @@ main{
 
 
 #registro_compra{
+   
     background-color: white;
     height: 100%;
     flex: 0.4;
@@ -77,6 +84,7 @@ main{
     
 }
 #registro_compra h3{
+    
     margin: 0;
     height: 5%;
     text-align: center;
