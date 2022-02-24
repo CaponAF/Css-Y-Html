@@ -6,7 +6,7 @@
     height: 100%;
     margin: 0;
     padding: 0;
-    /* border: 5px solid red; */
+  
 } 
 
 body{
@@ -14,7 +14,7 @@ body{
 }
 nav{
     background-color: #00b19d;
-    height: 5vh;
+    height: 5rem;
 }
 #search{
     left: 0%;
@@ -24,19 +24,17 @@ nav{
 
     width:  4vw;
     height: 3vh;
-    /* display: flex;
-    flex-flow:; */
-    margin-top: 1%;
-    margin-left: 1%;
+    display: flex;
+  
+    margin-top: 2rem;
+    margin-left: 2rem;
     background-color:  #000000;
    
 }
 #busco{
     height: 3vh;
     width: 50vw;
-    /* display: flex;
-    flex-flow: column;
-    border: 2px solid red; */
+    
 }
 #nuevo{
     height: 4%;
@@ -48,39 +46,37 @@ nav{
     display: flex;
     flex-flow: column;
     height: 100%;
-    /* border: 5px solid blue; */
-    /* border: 1px solid red; */
+    
 }
 .container_main{
     display: flex;
     flex-flow: row;
     height: calc(100% - 5vh);
-    /* border: 5px solid black; */
-    /* border: 1px solid red; */
+    
 }
 #index{
     background-color: #ffffff;
     width: 5%;
     height: 100%;
-    /* border: 5px solid orange; */
+    
 }
 main{
     height: 100%;
     background-color: #E8ebf0;
     flex: 1;
-    /* border: 5px solid yellow; */
+    
    
 }
 
 
 #registro_compra{
-   
-    background-color: white;
-    height: 100%;
-    flex: 0.4;
+
     display: flex;
     flex-flow: column;
     overflow: scroll;
+    background-color: white;
+    height: 100%;
+    flex: 0.4;
     
 }
 #registro_compra h3{
