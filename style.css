@@ -148,3 +148,22 @@ article{
     
     color: white;
 }
+img{
+    width:  250px;
+    height:200px;
+    margin: 0px;
+}
+#código{
+ position: relative;
+ top: -216px;
+ background-color: white;
+ width: 100px;
+}
+#estrella{
+    position: relative;
+    top: -73px;
+    background-color: white;
+    width: 100px;
+    left: 151px;
+
+}
