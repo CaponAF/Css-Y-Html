@@ -1,0 +1,35 @@
+@media (max-width: 380px) {
+  #registro_compra {
+   display: none;
+  }
+  #index{
+    display: none;
+  }
+
+}
+@media (min-width: 300px) and (max-width: 500px){
+  #index{
+    display: flex;
+  }
+  #registro_compra{
+    display: none;
+  }
+}
+/* @media (max-width: 1214px) {
+  #
+  
+
+} */
+/* # sourceMappingURL=media.css.map */
+
+@media (min-width: 500px) and (max-width: 800px){
+  #index {
+    display: flex;
+  }
+  #registro_compra{
+    position: absolute;
+    display: flex;
+    flex: 1;
+    height: calc(100% - 3.5rem);
+  }
+}
